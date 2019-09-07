@@ -1,0 +1,18 @@
+header {
+    height: 70px;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header > h1 {
+    font-family: Aktiv-Grotesk Bold, Arial Bold, sans-serif;
+    width: calc(100% - 160px);
+    text-align: center;
+    font-size: 20px;
+    color: #D22630;
+}
+header > .top {
+    position: absolute;
+    left: 20px;
+}

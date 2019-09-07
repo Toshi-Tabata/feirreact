@@ -1,0 +1,24 @@
+body {
+        min-height: calc(100% + 120px);
+      }
+
+      #welcome-text {
+        padding-left: 10vw;
+        padding-top: 3vh;
+      }
+
+      #welcome-text-title {
+          font-family: Arial;
+          font-size: 2rem;
+      }
+
+      #welcome-text-subtext {
+          font-size: 1.7rem;
+          font-family: Arial;
+      }
+
+      #arrow-icon {
+        padding: 10px;
+        max-width: 150px;
+        max-height: 150px;
+      }
