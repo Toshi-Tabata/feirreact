@@ -4,17 +4,23 @@ import "./welcometext"
 import WelcomeText from "./welcometext";
 import MenuHeader from "./menuHeader";
 import Hamburger from "./hamburger";
+import MenuFooter from "./menuFooter.js"
+import Modal from "./modal"
 
 function App() {
   return (
       <div>
-        <MenuHeader children={
-          <Hamburger children={
-            <div>hello</div>}/>}/>
-          <div> hi world </div>
-          <WelcomeText/>
+          <MenuHeader >
+              <Hamburger>
+                   <div>hello</div>
+                  <Modal/>
+
+              </Hamburger>
+          </MenuHeader>
+        <WelcomeText/>
+        <MenuFooter/>
       </div>
-);
+  );
 }
 
 export default App;
