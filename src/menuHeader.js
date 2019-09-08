@@ -4,7 +4,7 @@ import "./menuHeader.css"
 export default function MenuHeader(props){
     return(
         <header>
-            <h1>Fire Engineering Inspection Report Editor</h1>
+            <h1>{props.title}</h1>
             <div className="top">
                {props.children}
             </div>

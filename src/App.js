@@ -10,7 +10,7 @@ import Modal from "./modal"
 function App() {
   return (
       <div>
-          <MenuHeader >
+          <MenuHeader title={"Fire Engineering Inspection Report Editor"}>
               <Hamburger>
                    <div>hello</div>
                   <Modal/>
