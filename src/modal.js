@@ -3,7 +3,8 @@ import "./modal.css"
 import fileIcon from "./file.svg"
 
 
-// TODO:
+// TODO: add event listeners or onclick events for elements
+// https://codesandbox.io/s/84ol32ono9?from-embed
 export default class Modal extends Component{
     modalFn() {
         const modalBtn = document.getElementById("openModal");
