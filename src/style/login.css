@@ -1,0 +1,12 @@
+#fileIcon{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 25px;
+    padding: 15px;
+    transition-duration: 0.2s;
+}
+#fileIcon:hover{
+    background-color: white;
+}

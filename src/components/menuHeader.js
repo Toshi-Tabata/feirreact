@@ -1,5 +1,5 @@
 import React from "react";
-import "./menuHeader.css"
+import "../style/menuHeader.css"
 
 export default function MenuHeader(props){
     return(

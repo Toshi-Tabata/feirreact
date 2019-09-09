@@ -1,5 +1,5 @@
 import React from "react";
-import "./menuFooter.css";
+import "../style/menuFooter.css";
 
 export default function MenuFooter(props){
     return(

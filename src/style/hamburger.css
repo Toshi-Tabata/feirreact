@@ -3,8 +3,7 @@
   height: 40px;
 }
 
-#toggleMenu input
-{
+#toggleMenu input{
   /*  using hidden checkbox for on-click */
   display: block;
   width: 40px;
@@ -18,8 +17,7 @@
 
 }
 
-#menu
-{
+#menuList{
   /*adjust size and position of hamburger menu*/
   min-height: calc(100vh - 135px);
   position: absolute;
@@ -27,24 +25,30 @@
   margin: 13px 0 0 -30px;
   padding: 15px 50px 50px;
   background: #858585;
-  list-style-type: none;  /* remove bullet points*/
 
-  /* Animation for hamburger menu*/
+
+  /* animation for hamburger menu*/
   transform-origin: 0 0;
   transform: translate(-100%, 0);
   transition: transform 0.2s cubic-bezier(0.1,0.2,0.1,1.0);
 }
 
-#menu li
-{
-  padding: 10px 0;
-  font-size: 22px;
-}
-
-/*
- * And let's slide it in from the left
- */
-#toggleMenu input:checked ~ ul
-{
+/* more animation to slide in from left */
+#toggleMenu input:checked ~ ul{
   transform: none;
 }
+
+#menuList li{
+  list-style-type: none;  /* remove bullet points if <li/> is used */
+}
+
+/* any items within the "list", <li/> or not will be formatted */
+#formatChildren{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 400px;
+  text-align: center;
+  padding: 10px 0;
+}
+

@@ -1,6 +1,6 @@
 import React from 'react';
-import './welcometext.css';
-import arrow from "./arrow.png";
+import '../style/welcometext.css';
+import arrow from "../img/arrow.png";
 
 export default function WelcomeText() {
     return (
