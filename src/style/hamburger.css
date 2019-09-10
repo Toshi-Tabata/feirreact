@@ -3,11 +3,11 @@
   height: 40px;
 }
 
-#toggleMenu input{
+#checkbox{
   /*  using hidden checkbox for on-click */
   display: block;
   width: 40px;
-  height: 32px;
+  height: 45px;
   position: absolute;
   top: -7px;
   left: -5px;

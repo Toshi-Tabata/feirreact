@@ -11,6 +11,7 @@
 }
 
 #modalContainer{
+
     background-color: white;
     background-size: auto auto;
     min-width: 500px;
@@ -25,9 +26,12 @@
 }
 
 #modalContent{
+    position: relative;
+    text-align: left;
     display: block;
 }
 #closeBtn{
+
     cursor: pointer;
     color: black;
     font-size: 30px;

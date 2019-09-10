@@ -2,52 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b758372-6e8c-4441-a3a6-a7b21a43096a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/App.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/hamburger.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/menuFooter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/menuHeader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/modal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/testComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/welcometext.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Hamburger_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/file.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/hamburger.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/hamburger.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/menuFooter.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/menuHeader.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/modal.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/testComponent.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/welcometext.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/notFound.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/buildingIDInput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/perfSoln.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/buildingInput.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hamburger_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/file.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hamburger.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hamburger.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hamburger.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/menuFooter.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/menuFooter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/menuHeader.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/menuHeader.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modal.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modal.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/welcometext.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/welcometext.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/hamburger.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/hamburger.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/testComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/testComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/hamburger.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/hamburger.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/modal.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/modal.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/login.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,13 +26,19 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1QV29wbEi6jlfcmiHvLxBMHAbJT" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -75,6 +48,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="10.16.3" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -82,6 +56,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
@@ -101,8 +76,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.npm start">
+  <component name="RunManager" selected="Node.js.test.js">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="test.js" working-dir="$PROJECT_DIR$/src">
       <method v="2" />
     </configuration>
     <configuration name="npm start" type="js.build_tools.npm">
@@ -115,6 +93,11 @@
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.test.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="allServicesViewState">
@@ -137,6 +120,7 @@
       <option name="presentableId" value="Default" />
       <updated>1567841294879</updated>
       <workItem from="1567841296059" duration="27144000" />
+      <workItem from="1568080527247" duration="16748000" />
     </task>
     <servers />
   </component>

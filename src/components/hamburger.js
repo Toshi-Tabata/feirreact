@@ -8,7 +8,7 @@ export default function Hamburger(props){
             <nav role="navigation">
                 <div id="toggleMenu">
                     {/*fake checkbox to check for onclick*/}
-                    <input type="checkbox" />
+                    <input id="checkbox" type="checkbox" />
 
                     {/*make hamburger icon*/}
                     <img src={hamburgerIcon} id={"hamburgerIcon"} alt={"hamburgerIcon"}/>
@@ -16,10 +16,6 @@ export default function Hamburger(props){
                     <ul id="menuList">
                         <div id={"formatChildren"}>
                             {props.children}
-                            <a href="#"><li>Home</li></a>
-                            <a href="#"><li>About</li></a>
-                            <a href="#"><li>Info</li></a>
-                            <a href="#"><li>Contact</li></a>
                         </div>
                     </ul>
                 </div>

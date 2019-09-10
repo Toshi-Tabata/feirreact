@@ -8,24 +8,26 @@ import MenuFooter from "../components/menuFooter.js"
 import Modal from "../components/modal"
 import TestComponent from "../components/testComponent";
 import fileIcon from "../img/file.svg"
+import BuildingInput from "../components/buildingIDInput";
 
 export default function Login() {
-  return (
-      <div>
-          <MenuHeader title={"Fire Engineering Inspection Report Editor"}>
+    return (
+        <div>
+            <MenuHeader title={"Fire Engineering Inspection Report Editor"}>
 
-              <Hamburger>
-                  <Modal button={<img src={fileIcon} alt={"openModal"} id={"fileIcon"}/>}>
-                      <div>Enter building identifier:</div>
-                      <textarea placeholder={"e.g. UNSW01"}/>
-                      <button>Submit</button>
-                  </Modal>
+                <Hamburger>
+                    <Modal button={<img src={fileIcon} alt={"openModal"} id={"fileIcon"}/>}>
+                        <div>Enter building identifier:</div>
+                        <BuildingInput/>
+                        <button>Submit</button>
+                    </Modal>
 
-              </Hamburger>
-          </MenuHeader>
-        <WelcomeText/>
-        <MenuFooter/>
-        <TestComponent/>
-      </div>
-  );
+                </Hamburger>
+            </MenuHeader>
+            <WelcomeText/>
+            <MenuFooter/>
+            <TestComponent/>
+
+        </div>
+    );
 }
