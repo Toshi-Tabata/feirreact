@@ -1,7 +1,9 @@
 import React, {Component} from "react";
 import Select from "react-select";
 import "../style/buildingInput.css"
+import {Link} from "react-router-dom"
 const perfSoln = require("../data/perfSoln");
+
 
 
 const buildingID = perfSoln.performanceSolutions
@@ -9,8 +11,8 @@ const buildingID = perfSoln.performanceSolutions
     .map(({buildingIdentifier}) => {
         return(
             {value: buildingIdentifier,
-            label: buildingIdentifier}
-            )
+                label: buildingIdentifier}
+        )
     });  // create array of objects with each building ID as labels and values
 
 const styles = { // when box is reselected, previous text is greyed out. Better user experience
@@ -23,10 +25,38 @@ const styles = { // when box is reselected, previous text is greyed out. Better 
 
 export default class BuildingInput extends Component{
 
+    constructor(props){
+        super(props);
+
+        // TODO: change temp button to real button component
+        // make button component
+        // make button redirect based on input from building ID
+        this.state = {
+            selectedOption: "none"
+        };
+                this.handleSubmit = this.handleSubmit.bind(this);
+        this.handleChange = this.handleChange.bind(this);
+        this.giveValue = this.giveValue.bind(this);
+
+
+
+
+    }
+
+    giveValue(){
+        return this.state.selectedOption;
+    }
+    handleSubmit(){
+        console.log("triggered" + this.state);
+    };
+
+
     handleChange = (selectedOption) => {
-        this.setState({selectedOption});
+        this.setState({selectedOption: selectedOption.value});
+        console.log(selectedOption.value);
     };
     render() {
+
         return (
             <div id={"idInput"}>
                 <Select
@@ -38,7 +68,7 @@ export default class BuildingInput extends Component{
                     options={buildingID}
                     onChange={this.handleChange}
                 />
-                <button>submit this</button>
+                <Link  to={"#"+this.state.selectedOption}>  <button>temp button</button> </Link>
             </div>
         )
     }

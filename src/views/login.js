@@ -19,7 +19,6 @@ export default function Login() {
                     <Modal button={<img src={fileIcon} alt={"openModal"} id={"fileIcon"}/>}>
                         <div>Enter building identifier:</div>
                         <BuildingInput/>
-                        <button>Submit</button>
                     </Modal>
 
                 </Hamburger>
