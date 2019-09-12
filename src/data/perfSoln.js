@@ -15,7 +15,6 @@ module.exports = {
                     "observation": null,
                     "dtsNonCompliance": null,
                     "actionArising": null,
-
                     "image": null,
                     "dateCreated": "2019-07-27T14:39:49.695011+10:00",
                     "dateUpdated": "2019-07-27T14:39:49.695025+10:00"
@@ -35,7 +34,7 @@ module.exports = {
                     "measure": "Exit width is available on pitch level to enable evacuation of 200 occupants within 8 minutes.",
                     "observation": null,
                     "dtsNonCompliance": null,
-                    "actionArising": null,
+                    "actionArising": "some test data here",
                     "image": null,
                     "dateCreated": "2019-07-27T14:38:13.425548+10:00",
                     "dateUpdated": "2019-07-27T14:38:13.425563+10:00"
@@ -53,7 +52,7 @@ module.exports = {
             ]
         }, {
             "id": 92,
-            "buildingName": "Testing",
+            "buildingName": "This is a Test Building Name",
             "buildingIdentifier": "MxDDbx",  // building ID to identify this performance solution
             "projectIdentifier": "ZpwNNe",
             "reportIdNumber": 13,
@@ -114,7 +113,7 @@ module.exports = {
                 {
                     "id": 3,
                     "measure": "The upholstery has been tested to BS EN 1021 Parts 1 and 2 – Assessment of the Ignitability of Upholstered Furniture",
-                    "observation": "Upholstery visibly consist with test data seen.",
+                    "observation": "Upholstery visibly consist with test data seen. #2",
                     "dtsNonCompliance": null,
                     "actionArising": null,
                     "image": null,
@@ -153,7 +152,7 @@ module.exports = {
             "mitigationMeasures": [
                 {
                     "id": 8,
-                    "measure": "123Fire exit sign is located at each fire exit.",
+                    "measure": "Fire exit sign is located at each fire exit.",
                     "observation": null,
                     "dtsNonCompliance": null,
                     "actionArising": null,
@@ -164,7 +163,7 @@ module.exports = {
                 },
                 {
                     "id": 7,
-                    "measure": "123Sprinklers are provided to areas where smoke detection is omitted.",
+                    "measure": "Sprinklers are provided to areas where smoke detection is omitted.",
                     "observation": null,
                     "dtsNonCompliance": null,
                     "actionArising": null,
@@ -174,7 +173,7 @@ module.exports = {
                 },
                 {
                     "id": 6,
-                    "measure": "123Exit width is available on pitch level to enable evacuation of 200 occupants within 8 minutes.",
+                    "measure": "Exit width is available on pitch level to enable evacuation of 200 occupants within 8 minutes.",
                     "observation": null,
                     "dtsNonCompliance": null,
                     "actionArising": null,
@@ -184,7 +183,7 @@ module.exports = {
                 },
                 {
                     "id": 5,
-                    "measure": "123Each of the fire hydrants are located in clear line of sight of the exits to be readily identifiable for firefighting operations.",
+                    "measure": "Each of the fire hydrants are located in clear line of sight of the exits to be readily identifiable for firefighting operations.",
                     "observation": null,
                     "dtsNonCompliance": null,
                     "actionArising": null,

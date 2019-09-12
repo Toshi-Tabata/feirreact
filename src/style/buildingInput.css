@@ -1,0 +1,12 @@
+#wrapper{
+
+}
+#idInput{
+    /*align ID box ith submit button*/
+    padding-top: 3px;
+    min-width: 400px;
+    float:left;
+}
+#submitButton{
+    float: left;
+}

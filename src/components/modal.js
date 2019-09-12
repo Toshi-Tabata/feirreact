@@ -8,6 +8,7 @@ export default class Modal extends Component {
         this.state = {
             showModal: false
         };
+
         this.handleOpen = this.handleOpen.bind(this);
 
         this.modalInstance = (
@@ -17,12 +18,12 @@ export default class Modal extends Component {
         );
 
         this.handleClose = this.handleClose.bind(this);
+
         this.modalBackground = (
-            <div id={"modalPage"} onClick={this.handleClose}> when you click the transparent area, close modal
+            <div id={"modalPage"} onClick={this.handleClose}>
                 <div id={"modalContainer"}>
                     <span id={"closeBtn"} onClick={this.handleClose}>&times;</span>
                     <div id={"modalContent"}> {props.children} </div>
-
                 </div>
             </div>
         )

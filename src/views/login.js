@@ -1,5 +1,4 @@
 import React from "react";
-// import {Link} from "react-router-dom";
 import '../style/login.css';
 import WelcomeText from "../components/welcometext";
 import MenuHeader from "../components/menuHeader";
@@ -14,19 +13,16 @@ export default function Login() {
     return (
         <div>
             <MenuHeader title={"Fire Engineering Inspection Report Editor"}>
-
                 <Hamburger>
                     <Modal button={<img src={fileIcon} alt={"openModal"} id={"fileIcon"}/>}>
-                        <div>Enter building identifier:</div>
+                        <b>Enter building identifier:</b>
                         <BuildingInput/>
                     </Modal>
-
                 </Hamburger>
             </MenuHeader>
             <WelcomeText/>
             <MenuFooter/>
             <TestComponent/>
-
         </div>
     );
 }

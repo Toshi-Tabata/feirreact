@@ -1,0 +1,12 @@
+#viewContainer {
+    overflow: hidden;
+
+}
+
+#siteContent{
+    overflow: auto; /* scroll bar for button and table*/
+    height: 88vh;
+    margin-top: 70px;
+    margin-bottom: 50px;
+
+}

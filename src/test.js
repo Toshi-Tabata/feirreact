@@ -1,35 +1,45 @@
-let perfSoln = require("./data/perfSoln");
+// let perfSoln = require("./data/perfSoln");
+//
+// const bID = "UNSW01"; // get this from query string
+// let b = perfSoln.performanceSolutions.filter((obj)=> obj.buildingIdentifier === bID);
+// console.log(b[0].buildingName);
+//
 
-
-const objectCopy = { // smaller representation of perfSoln
-    performSoln:[
+const myObject = {
+    performanceSolutions:[
         {
-            "obj1": "Object 1",
-            obj2: "undesired",
+            measure: "td1",
+            observation: "td2",
+            actionArising: "td3",
         },
         {
-            "obj1": "Object 2",
-            obj2: "undesired2"
+            MitigationMeasure: "td4",
+            Observation: "td5",
+            ActionArising: "td6",
 
         },
         {
-            "obj": "Object 2",
-            obj2: "undesired2"
-
+            measure: "td7",
+            observation: "td8",
+            actionArising: "td9",
         },
-    ]
+    ],
 };
 
-// return only objects that contain a buildingIdentifier
-const filterArray = perfSoln.performanceSolutions.filter(object => "buildingIdentifier" in object);
-console.log(filterArray);
 
-const results = filterArray.map(({buildingIdentifier}) =>
-    {return(
-        {label: buildingIdentifier,
-            value: buildingIdentifier
+
+function getMitigationArray(){
+    const ps = myObject.performanceSolutions;
+    let mMarray = ps; // array of mitigation measure objects
+    return mMarray.reduce(function(result, obj){
+        let tableRow = [obj.measure, obj.observation, obj.actionArising];
+        if (!tableRow.includes(undefined)){
+            result.push(tableRow)
         }
-        )
-    }
-    );  // create array of building IDs
-console.log(results);
+        return result
+    }, []);
+    // TODO: For each mitigation measure object, create an array of [mM, Obs, aA]
+    // TODO: then nest each of those arrays within an array
+}
+
+console.log(getMitigationArray());
