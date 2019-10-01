@@ -2,27 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b758372-6e8c-4441-a3a6-a7b21a43096a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/buttons/submitButton.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/globals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/reportTable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/screengrab.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/screenshot.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/reportTable.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/reportView.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/submitButton.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/reportView.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config.xlaunch" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/buildingIDInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/buildingIDInput.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/menuFooter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menuFooter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/perfSoln.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/perfSoln.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/buildingInput.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/buildingInput.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/menuFooter.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/menuFooter.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/menuHeader.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/menuHeader.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/welcometext.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/welcometext.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/welcometext.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/welcometext.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/login.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,7 +44,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.16.3" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../videocall/FEIR" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -129,7 +115,11 @@
       <option name="presentableId" value="Default" />
       <updated>1567841294879</updated>
       <workItem from="1567841296059" duration="27144000" />
-      <workItem from="1568080527247" duration="56054000" />
+      <workItem from="1568080527247" duration="56677000" />
+      <workItem from="1568410745284" duration="639000" />
+      <workItem from="1568715943600" duration="2788000" />
+      <workItem from="1569444748809" duration="2117000" />
+      <workItem from="1569910975185" duration="1050000" />
     </task>
     <servers />
   </component>

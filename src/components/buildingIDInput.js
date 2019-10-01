@@ -30,9 +30,6 @@ export default class BuildingInput extends Component{
     constructor(props){
         super(props);
 
-        // TODO: change temp button to real button component
-        // make button component
-        // make button redirect based on input from building ID
         this.state = {
             selectedOption: "none"
         };

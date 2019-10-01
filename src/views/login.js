@@ -22,7 +22,6 @@ export default function Login() {
             </MenuHeader>
             <WelcomeText/>
             <MenuFooter/>
-            <TestComponent/>
         </div>
     );
 }
