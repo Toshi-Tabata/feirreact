@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/feirreact/precache-manifest.7cc5c493023dac2dd9b5210b6c1d1172.js"
+  "/feirreact/precache-manifest.1dfbe02048c877b2236174fb9a8d3d10.js"
 );
 
 self.addEventListener('message', (event) => {

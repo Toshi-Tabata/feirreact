@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ec6dc9d772cc10adcbba12a87d48159c",
+    "revision": "e047ca99482b56e2d160868441d549e7",
     "url": "/feirreact/index.html"
   },
   {
-    "revision": "2c1cd3ebfd14bd522c4c",
+    "revision": "16bb22036a691160b28e",
     "url": "/feirreact/static/css/main.2b779991.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/feirreact/static/js/2.0b5c160b.chunk.js"
   },
   {
-    "revision": "2c1cd3ebfd14bd522c4c",
-    "url": "/feirreact/static/js/main.51639ae9.chunk.js"
+    "revision": "16bb22036a691160b28e",
+    "url": "/feirreact/static/js/main.a6860326.chunk.js"
   },
   {
     "revision": "7cfd2ef63322a1ebc3ab",
