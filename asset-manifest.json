@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/FEIR/static/css/main.2b779991.chunk.css",
-    "main.js": "/FEIR/static/js/main.4778e007.chunk.js",
-    "main.js.map": "/FEIR/static/js/main.4778e007.chunk.js.map",
-    "runtime~main.js": "/FEIR/static/js/runtime~main.88a713bb.js",
-    "runtime~main.js.map": "/FEIR/static/js/runtime~main.88a713bb.js.map",
-    "static/js/2.0b5c160b.chunk.js": "/FEIR/static/js/2.0b5c160b.chunk.js",
-    "static/js/2.0b5c160b.chunk.js.map": "/FEIR/static/js/2.0b5c160b.chunk.js.map",
-    "index.html": "/FEIR/index.html",
-    "precache-manifest.1da96b7e8c8761a84da620f6fc0ff334.js": "/FEIR/precache-manifest.1da96b7e8c8761a84da620f6fc0ff334.js",
-    "service-worker.js": "/FEIR/service-worker.js",
-    "static/css/main.2b779991.chunk.css.map": "/FEIR/static/css/main.2b779991.chunk.css.map",
-    "static/media/arrow.png": "/FEIR/static/media/arrow.3ec8cfaf.png",
-    "static/media/file.svg": "/FEIR/static/media/file.37914bfd.svg"
+    "main.css": "/feirreact/static/css/main.2b779991.chunk.css",
+    "main.js": "/feirreact/static/js/main.51639ae9.chunk.js",
+    "main.js.map": "/feirreact/static/js/main.51639ae9.chunk.js.map",
+    "runtime~main.js": "/feirreact/static/js/runtime~main.86d8ed5e.js",
+    "runtime~main.js.map": "/feirreact/static/js/runtime~main.86d8ed5e.js.map",
+    "static/js/2.0b5c160b.chunk.js": "/feirreact/static/js/2.0b5c160b.chunk.js",
+    "static/js/2.0b5c160b.chunk.js.map": "/feirreact/static/js/2.0b5c160b.chunk.js.map",
+    "index.html": "/feirreact/index.html",
+    "precache-manifest.7cc5c493023dac2dd9b5210b6c1d1172.js": "/feirreact/precache-manifest.7cc5c493023dac2dd9b5210b6c1d1172.js",
+    "service-worker.js": "/feirreact/service-worker.js",
+    "static/css/main.2b779991.chunk.css.map": "/feirreact/static/css/main.2b779991.chunk.css.map",
+    "static/media/arrow.png": "/feirreact/static/media/arrow.3ec8cfaf.png",
+    "static/media/file.svg": "/feirreact/static/media/file.37914bfd.svg"
   }
 }
