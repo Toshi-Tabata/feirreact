@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/FEIR/static/css/main.2b779991.chunk.css",
+    "main.js": "/FEIR/static/js/main.4778e007.chunk.js",
+    "main.js.map": "/FEIR/static/js/main.4778e007.chunk.js.map",
+    "runtime~main.js": "/FEIR/static/js/runtime~main.88a713bb.js",
+    "runtime~main.js.map": "/FEIR/static/js/runtime~main.88a713bb.js.map",
+    "static/js/2.0b5c160b.chunk.js": "/FEIR/static/js/2.0b5c160b.chunk.js",
+    "static/js/2.0b5c160b.chunk.js.map": "/FEIR/static/js/2.0b5c160b.chunk.js.map",
+    "index.html": "/FEIR/index.html",
+    "precache-manifest.1da96b7e8c8761a84da620f6fc0ff334.js": "/FEIR/precache-manifest.1da96b7e8c8761a84da620f6fc0ff334.js",
+    "service-worker.js": "/FEIR/service-worker.js",
+    "static/css/main.2b779991.chunk.css.map": "/FEIR/static/css/main.2b779991.chunk.css.map",
+    "static/media/arrow.png": "/FEIR/static/media/arrow.3ec8cfaf.png",
+    "static/media/file.svg": "/FEIR/static/media/file.37914bfd.svg"
+  }
+}
